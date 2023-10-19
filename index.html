@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LvZone</title>
+    <link rel="icon" href="./assets/icone.png">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="header-navegaveis">
+            <button class="botao-logo">
+                <img class="header-logo" src="./assets/lelvezone.png" alt="logo">
+                <div class="nome">
+                    LEVELZONE
+                </div>
+            </button>
+            <button class="botao-etiqueta">
+                <img class="header-etiqueta" src="./assets/etiqueta-de-preco.png" alt="etiqueta">
+                <div class="promocoes">Promoções</div>
+            </button>
+
+            <button class="botao-pc">
+                <img src="./assets/computador.png" alt="computador" class="header-pc">
+                <div class="computador">
+                    PC
+                </div>
+
+            </button>
+            <button class="botao-control">
+                <img src="./assets/controle-de-video-game.png" alt="controle" class="header-controle">
+                <div class="controle">
+                    Consoles
+                </div>
+
+            </button>
+            <label class="campo-buscar" for="campo-buscar">
+
+                <img class="header-lupa" src="./assets/lupa.png" alt="lupa">
+                <input class="input-busca" type="text" id="campo-id" name="buscar" placeholder="Buscar">
+
+
+            </label>
+            <button class="botao-carro">
+                <img src="./assets/carrinho-de-compras.png" alt="carrinho" class="header-carrinho">
+
+
+            </button>
+
+
+
+        </nav>
+    </header>
+    <main>
+
+
+        <form class="conteudo-main" id="form">
+            <label class="campo-login" for="login">
+                <img class="bonequinho" src="./assets/bonequinho.png" alt="bonecologin">
+                <input required id="login" type="text" name="login" placeholder="Usuário" oninput="validateForm()">
+
+            </label>
+
+            <label for="senha" class="campo-senha">
+                <img class="cadeado" src="./assets/cadeado.png" alt="cadeadosenha">
+                <input required type="password" id="senha" name="senha" placeholder="Senha" oninput="validateForm()">
+
+
+
+            </label>
+
+            <button class="botao-entrar" type="button" onclick="submitForm()">  
+                    Entrar
+            </button>
+
+            <button class="botao-esqueceu">
+                <a href="./recuperar.html">
+                    Esqueceu sua senha?
+                </a>
+            </button>
+            <button class="botao-criar" type="submit">
+                <a href="./cadastro.html">
+                    Criar conta
+                </a>
+            </button>
+
+
+
+        </form>
+
+        <div class="conteudo-direito">
+            <p class="conteudo-venda">
+                PRÉ VENDA
+            </p>
+            <button class="botao-confira">
+                CONFIRA
+            </button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

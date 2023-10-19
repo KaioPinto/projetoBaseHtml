@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #151D27;
+    height: 10vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    height: 24px;
+    width: auto;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.botao-logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.nome {
+    position: absolute;
+    left: 110px;
+    top: 25px;
+    font-family: Open Sans Hebrew;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.header-logo {
+    height: 77px;
+    width: 97px;
+}
+
+.botao-etiqueta {
+    position: relative;
+    left: 540px;
+    bottom: 17px;
+}
+
+.promocoes {
+    color: #FFFFFF;
+    position: absolute;
+    left: 35px;
+    bottom: 6px;
+}
+
+.header-etiqueta {
+    width: auto;
+    height: 20px;
+
+}
+
+.botao-pc {
+    position: relative;
+    left: 700px;
+    bottom: 15px;
+}
+
+.computador {
+    color: #FFFFFF;
+    position: absolute;
+    left: 35px;
+    bottom: 7px;
+}
+
+.header-pc {
+    width: auto;
+    height: 20px;
+}
+
+.botao-control {
+    position: relative;
+    left: 808px;
+    bottom: 17px;
+}
+
+.controle {
+    color: #FFFFFF;
+    position: absolute;
+    left: 35px;
+    bottom: 6px;
+}
+
+.header-controle {
+    width: auto;
+    height: 20px;
+
+}
+
+.campo-buscar {
+    position: relative;
+    left: 960px;
+    bottom: 22.2px;
+
+}
+
+.header-lupa {
+    position: absolute;
+    bottom: 5px;
+    top: 5px;
+    height: 10px;
+    width: auto;
+    left: 45px;
+
+}
+
+.input-busca {
+    width: 65px;
+    background-color: #263241;
+    border: none;
+}
+
+::placeholder {
+    color: #8797A8;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 10px;
+    padding: 7px;
+}
+
+.botao-carro {
+    position: relative;
+    left: 1060px;
+    bottom: 16px;
+
+}
+
+.header-carrinho {
+    height: 20px;
+}
+
+.botao-perfil {
+    position: relative;
+    left: 1180px;
+    bottom: 15.5px;
+}
+
+.logado {
+    position: absolute;
+    left: 32px;
+    top: 5px;
+    color: white;
+}
+
+main {
+    background-color: #151D27;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+
+
+
+
+}
+.cima{
+    
+    position: absolute;
+    left: 350px;
+    top: 140px;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    
+}
+.buscar{
+    position: absolute;
+    right: 20px;
+    top: 140px;
+}
+.buscar input{
+    background-color: #2E3E52;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px ;
+    height: 30px;
+    width: 232px;
+    border: none;
+}
+.busca::placeholder{
+    text-align: center;
+}
+.buscar img{
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    right: 50px;
+    top: 7px;
+}
+
+
+.jogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    height: 75vh;
+    width: 67vw;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: 120px
+    ;
+    left: 170px;
+
+
+}
+
+.jogos div {
+    display: flex;
+    background-color: #1f2a38;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    height: 325px;
+    width: 302px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.jogos img{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+    height: 290px;
+    width: 242px;
+}
+
+
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2a38;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    height: 80vh;
+    width: 15vw;
+    margin-top: 50px;
+    margin-left: 20px;
+
+
+}
+
+.biblioteca {
+    
+    position: relative;
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.biblioteca img {
+    position: absolute;
+    left: 60px;
+    top: 2.5px;
+}
+
+.store {
+    position: relative;
+    color: #535151;
+    font-size: 20px;
+    font-weight: 800;
+    right: 32px;
+    top: 40px;
+
+
+}
+
+.store img {
+    position: absolute;
+    left: 90px;
+    top: 2.5px;
+}
+
+.power {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    height: 38px;
+    width: 38px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+  }
+
+
+footer {
+    background-color: #151D27;
+    height: 10vh;
+}

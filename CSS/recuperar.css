@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #151D27;
+    height: 10vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    height: 24px;
+    width: auto;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.botao-logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.nome {
+    position: absolute;
+    left: 110px;
+    top: 25px;
+    font-family: Open Sans Hebrew;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.header-logo {
+    height: 77px;
+    width: 97px;
+}
+
+.botao-etiqueta {
+    position: relative;
+    left: 540px;
+    bottom: 17px;
+}
+
+.promocoes {
+    color: #FFFFFF;
+    position: absolute;
+    left: 35px;
+    bottom: 6px;
+}
+
+.header-etiqueta {
+    width: auto;
+    height: 20px;
+
+}
+
+.botao-pc {
+    position: relative;
+    left: 700px;
+    bottom: 15px;
+}
+
+.computador {
+    color: #FFFFFF;
+    position: absolute;
+    left: 35px;
+    bottom: 7px;
+}
+
+.header-pc {
+    width: auto;
+    height: 20px;
+}
+
+.botao-control {
+    position: relative;
+    left: 808px;
+    bottom: 17px;
+}
+
+.controle {
+    color: #FFFFFF;
+    position: absolute;
+    left: 35px;
+    bottom: 6px;
+}
+
+.header-controle {
+    width: auto;
+    height: 20px;
+
+}
+
+.campo-buscar {
+    position: relative;
+    left: 960px;
+    bottom: 22.2px;
+
+}
+
+.header-lupa {
+    position: absolute;
+    bottom: 5px;
+    top: 5px;
+    height: 10px;
+    width: auto;
+    left: 45px;
+
+}
+
+.input-busca {
+    width: 65px;
+    background-color: #263241;
+    border: none;
+}
+
+::placeholder {
+    color: #8797A8;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 10px;
+    padding: 7px;
+}
+
+.botao-carro {
+    position: relative;
+    left: 1060px;
+    bottom: 16px;
+
+}
+
+.header-carrinho {
+    height: 20px;
+}
+
+.botao-perfil {
+    position: relative;
+    left: 1180px;
+    bottom: 15.5px;
+}
+
+.logado {
+    position: absolute;
+    left: 32px;
+    top: 5px;
+    color: white;
+}
+main {
+    background-color: #466D9E;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+    height: 90vh;
+    width: 100%;
+}
+.senha{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    gap: 40px;
+
+}
+.container input {
+    background-color: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    width: 632.51px;
+    height: 73.11px;
+    border: none;
+}
+.container input::placeholder {
+    color: #B0C4DE;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-left: 100px;
+}
+.container label{
+    position: relative;
+}
+.container img{
+    position:  absolute;
+    top: 16px;
+    left: 40px;
+    height: 38px;
+    width: 38px;
+}
+.descricao{
+    color: #B0C4DE;
+    font-size: 18px;
+    font-weight: lighter;
+    width: 655px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.butao{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: rgba(217, 217, 217, 0.22);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 196px;
+    height: 42px;
+    left: 200px;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+  }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LvZone</title>
+    <link rel="icon" href="./assets/icone.png">
+    <link rel="stylesheet" href="./CSS/recuperar.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header-navegaveis">
+
+            <a href="./index.html">
+                <button class="botao-logo">
+                    <img class="header-logo" src="./assets/lelvezone.png" alt="logo">
+                    <div class="nome">
+                        LEVELZONE
+                    </div>
+                </button>
+            </a>
+
+            <button class="botao-etiqueta">
+                <img class="header-etiqueta" src="./assets/etiqueta-de-preco.png" alt="etiqueta">
+                <div class="promocoes">Promoções</div>
+            </button>
+
+            <button class="botao-pc">
+                <img src="./assets/computador.png" alt="computador" class="header-pc">
+                <div class="computador">
+                    PC
+                </div>
+
+            </button>
+            <button class="botao-control">
+                <img src="./assets/controle-de-video-game.png" alt="controle" class="header-controle">
+                <div class="controle">
+                    Consoles
+                </div>
+
+            </button>
+            <label class="campo-buscar" for="campo-buscar">
+
+                <img class="header-lupa" src="./assets/lupa.png" alt="lupa">
+                <input class="input-busca" type="text" id="campo-id" name="buscar" placeholder="Buscar">
+
+
+            </label>
+            <button class="botao-carro">
+                <img src="./assets/carrinho-de-compras.png" alt="carrinho" class="header-carrinho">
+
+
+            </button>
+            <button class="botao-perfil">
+                <div class="logado">
+                    Entrar
+                </div>
+                <img src="assets/do-utilizador.png" alt="boneqo" class="perfil">
+            </button>
+
+
+
+
+        </nav>
+
+
+    </header>
+    <main>
+        <h2 class="senha"> Esqueceu sua senha?</h2>
+        <form class="container">
+            <p class="descricao">
+                Não se preocupe! Informe seu email de cadastro, o mesmo utilizado para acessar ao site, que lhe
+                enviaremos as instruções para a troca da senha por email.
+            </p>
+
+            <label class="campo-email" for="campo-email">
+                <img src="./assets/mensagem.png" alt="cartinha" class="msg">
+                <input required class="input-email" type="email" id="input-email" name="email" placeholder="Email">
+
+            </label>
+            <button class="butao" type="button" onclick="emailValidate()">
+                <a href="./index.html">
+                    Enviar
+                </a>
+            </button>
+
+
+
+
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>
